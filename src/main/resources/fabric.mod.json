@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "publicenderchest",
+  "version": "${version}",
+  "name": "Public Ender Chest",
+  "description": "A server-side shared 54-slot Ender Chest inventory.",
+  "authors": ["Matej"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.matej.publicenderchest.PublicEnderChest"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
